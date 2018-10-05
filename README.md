@@ -11,4 +11,4 @@ To fix that, please ctrl + f and search for the letter: 't' and remove tempos th
 In the event you're trying to convert something that already has seperate parts, begin the harmony with MML@ and then seperate each part with a comma ',' after the last part is pasted end the whole thing with a semi colon ';' 
 
 Original Credits to saschanaz: 
-(https://saschanaz.github.io/MapleSyrup)
+(https://github.com/saschanaz/MapleSyrup)
