@@ -1,8 +1,14 @@
-MapleSyrup
+MapleSyrup - English
 =========
 
-마비노기 MML 악보를 메이플스토리 2에서 연주할 수 있게 일부 수정해주는 툴입니다!
+This utility will break down old Mabinogi MML Files to a format that Maplestory 2 can use, including fixing issues with volume and timing.
 
-현재 템포 자동맞춤 기능, N노트를 일반노트로 수정하는 기능, 점이 붙은 L명령어 처리 기능 세 가지를 제공하고 있습니다.
+In the first box, paste your MML file contents (starts with MML@ and ends in ;) into the first box.
+Then click seperate. You should be able to paste it into the compose window, with each part seperated with the correct tempo markers. Then click seperate
+This utility does not handle complex tempos, when a tempo changes in the middle of a measure. 
+To fix that, please ctrl + f and search for the letter: 't' and remove tempos that are very close together.
 
-웹에서 이용하시려면 [여기](https://saschanaz.github.io/MapleSyrup)를 이용해 주시고, 라이브러리로 이용하시려면 `bower install maplesyrup`을 사용해 주세요. 
+In the event you're trying to convert something that already has seperate parts, begin the harmony with MML@ and then seperate each part with a comma ',' after the last part is pasted end the whole thing with a semi colon ';' 
+
+Original Credits to saschanaz: 
+(https://saschanaz.github.io/MapleSyrup)
