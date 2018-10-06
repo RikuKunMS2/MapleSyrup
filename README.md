@@ -1,6 +1,8 @@
 MapleSyrup - English
 =========
 
+to use go here: https://rikukunms2.github.io/MapleSyrupEnglish/
+
 This utility will break down old Mabinogi MML Files to a format that Maplestory 2 can use, including fixing issues with volume and timing.
 
 In the first box, paste your MML file contents (starts with MML@ and ends in ;) into the first box.
